@@ -1,22 +1,42 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
+int main(){
 
-int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+    int populacao1, pontos1, populacao2, pontos2;
+    float pib1, area1, pib2, area2;
+
+    printf("escreva o número da população da carta 1 \n:");
+    scanf("%d", &populacao1);
+
+    printf("escreva o número de pontos turisticos da carta 1 \n:");
+    scanf("%d", &pontos1);
+
+    printf("escreva o número do pib da carta 1 \n:");
+    scanf("%f", &pib1);
+
+    printf("escreva o número da area da carta 1 \n:");
+    scanf("%f", &area1);
+
+    printf("escreva o número da população da carta 2 \n:");
+    scanf("%d", &populacao2);
+
+    printf("escreva o número de pontos turisticos da carta 2 \n:");
+    scanf("%d", &pontos2);
+
+    printf("escreva o número do pib da carta 2 \n:");
+    scanf("%f", &pib2);
+
+    printf("escreva o número da area da carta 2 \n:");
+    scanf("%f", &area2);
+
+
+    printf("dados da carta 1: \n");
+    printf("populacao: %d - pontos: %d\n", populacao1, pontos1);
+    printf("pib: %f - area: %f\n", pib1, area1);
+
+    printf("dados da carta 2: \n");
+    printf("populacao: %d - pontos: %d\n", populacao2, pontos2);
+    printf("pib1: %f - area: %f", pib2, area2);
 
     return 0;
 }
